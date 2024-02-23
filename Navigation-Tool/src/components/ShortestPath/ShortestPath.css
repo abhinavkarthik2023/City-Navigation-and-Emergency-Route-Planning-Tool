@@ -1,0 +1,161 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/Abhinavpulikonda/Downloads/Navigation-tool/src/image/homeBG.jpeg');
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #95477b;
+  color: white;
+  height: 50px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #181718;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 50px;
+  background-color: transparent;
+}
+
+.top-autocomplete, .control-buttons {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: transparent;
+}
+.top-autocomplete-container {
+  background-color: transparent;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.autocomplete-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  padding: 100px;  
+  background-color: transparent;
+}
+
+.autocomplete-container-blocker {
+  background-color: transparent;  
+  padding: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#calculate {
+  background-color: #61dafb;
+  color: white;
+}
+
+#reset {
+  background-color: #ccc;
+  color: black;
+}
+
+.map-container {
+  position: relative; /* This allows absolute positioning relative to this container */
+  width: calc(100% - 100px); /* Adjust width based on padding */
+  height: 500px; /* Adjust height as needed */
+  margin: 20px auto;
+  background-color: #932b2b; /* Placeholder for the map */
+}
+
+.map {
+  position: absolute; /* Absolute position the map */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Ensure the map covers the full width */
+  height: 100%; /* Ensure the map covers the full height */
+}
+
+.bottom-container {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px; /* or any specific height or min-height, if required */
+}
+
+.bottom-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px; /* or any specific height or min-height, if required */
+  margin-bottom: 50px;
+}
+
+.view-distance {
+  background-color: red;
+  color: white;
+}
+
+.source-auto {
+  background-color: white;
+  color: white;
+}
+
+.top-autocomplete {
+  background-color: white;
+}
+
+.info-container {
+  color: white; /* Set text color to white */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the text box */
+  border-radius: 10px; /* Optional: for rounded corners */
+  padding: 15px; /* Padding inside the text box */
+  margin: 10px 0; /* Margin around the text box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the box */
+  max-width: 600px; /* Adjust the width as needed */
+  word-wrap: break-word; /* Prevents long text strings from overflowing */
+}
