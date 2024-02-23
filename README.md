@@ -26,7 +26,7 @@ Open http://localhost:3000 to view it in your browser.
 
 The page automatically refreshes upon making changes, and any lint errors can be viewed in the console as well.
 
-Explore Further
+## Explore Further
 
 For more information, refer to the documentation for Create React App.
 https://create-react-app.dev/docs/getting-started/
