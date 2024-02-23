@@ -1,6 +1,6 @@
-# Our navigation tool employs the Floyd-Warshall algorithm to find the shortest routes, recognizing the importance of time in today's fast-paced world. Whether it's a daily commute or an adventurous road trip, our advanced routing system ensures you reach your destination swiftly and effectively.
+# Our navigation tool utilizes the Floyd-Warshall algorithm to discover the quickest routes, acknowledging the significance of time in today's rapid-paced environment. Whether it's your everyday journey or an exciting road adventure, our sophisticated routing system guarantees a prompt and efficient arrival at your destination.
 
-Features of City Navigation and Emergency Route Planning Tool:
+## Features of City Navigation and Emergency Route Planning Tool:
 
 Finding Optimized/Shortest path for your safe and swift travel.
 
